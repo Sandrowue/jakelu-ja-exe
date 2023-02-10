@@ -17,7 +17,7 @@ Virtuaaliympäristö luodaan terminaalissa komennolla `python -m venv venv`. Kom
 ![image](https://user-images.githubusercontent.com/24242044/218056845-51bf3a58-7521-4651-b92a-bd75e5f49797.png)
 
 ### Kirjastojen lataaminen
-Sovellus saattaa käyttää kirjastoja. Python-terminologiassa kaikki Python-tiedostot, joita ohjelma käyttää, ovat moduuleja (module). Yleisesti käytetään kuitenkin termiä kirjasto, kun tarkoitetaan erikseen ladattavaa Python tiedostoa, jonka joku toinen on kirjoittanut yleiseen käyttöön. Kirjasto voi olla ulkoinen kirjasto, joka on otettava käyttöön erikseen asentamalla tai sisäinen kirjasto, joko tulee Python-tulkin mukana.
+Sovellus saattaa käyttää kirjastoja. Python-terminologiassa kaikki Python-tiedostot, joita ohjelma käyttää, ovat moduuleja (module). Yleisesti käytetään kuitenkin termiä kirjasto, kun tarkoitetaan erikseen ladattavaa Python tiedostoa, jonka joku toinen on kirjoittanut yleiseen käyttöön. Kirjasto voi olla ulkoinen kirjasto, joka on otettava käyttöön erikseen asentamalla tai sisäinen kirjasto, joka tulee Python-tulkin mukana.
 
 Esimerkiksi jos sovellus tarvitsee **Qt**-käyttöliittymän kirjastoja, ne asennetaan komennolla `pip install PyQt5`. Ennen kirjastojen asennusta kannattaa päivittää kirjastojen asennusohjelma komennolla `pip install --upgrade pip`.
 
